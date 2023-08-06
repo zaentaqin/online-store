@@ -49,10 +49,14 @@ Berikut adalah langkah-langkah untuk menginstal dan menjalankan aplikasi:
 3. Jalankan perintah berikut untuk menginstal dependensi:
 
    ```sh
-   go mod download
+   go mod init online_store
    ```
+4. Jalankan perintah berikut untuk menginstal library Go:
 
-4. Jalankan aplikasi dengan perintah:
+   ```sh
+   go mod tidy
+   ```
+5. Jalankan aplikasi dengan perintah:
 
    ```sh
    go run main.go
